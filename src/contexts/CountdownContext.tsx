@@ -57,7 +57,7 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
     <CountdownContext.Provider value={{
       minutes, seconds, hasFinished, isActive, startCountdown, resetCountdown
     }}>
-      {children};
+      {children}
     </CountdownContext.Provider>
   );
 }
